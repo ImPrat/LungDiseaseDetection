@@ -1,0 +1,1 @@
+This project is my effort to build a custom CNN model to classify chest X-Ray images into pneumonia, tuberculosis, COVID, and normal (healthy) classes. The dataset was compiled from multiple sources and is hosted at https://www.kaggle.com/datasets/imprat/lung-disease-dataset-multiple-sources
