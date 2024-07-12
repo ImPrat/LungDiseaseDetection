@@ -24,21 +24,3 @@ Methodology:
     Training:
         The model is trained using the Adam optimizer and categorical cross-entropy loss function for 20 epochs with a batch size of 32.
         A learning rate reduction callback is used to adjust the learning rate dynamically based on the validation accuracy.
-
-Results:
-
-    Training Performance:
-        After 20 epochs, the model achieved a training accuracy of 98.04% and a validation accuracy of 96.31%, indicating strong performance during training.
-
-    Evaluation Performance:
-        When evaluated on a test dataset, the model achieved a test accuracy of 95.49% and a test loss of 0.1788.
-        The precision, recall, and F1 scores for each class (pneumonia, normal, tuberculosis, and COVID-19) were high, demonstrating the model's effectiveness in accurately classifying the images.
-
-Metrics:
-
-    The model shows high precision, recall, and F1 scores across all classes, indicating its reliability and robustness in detecting pneumonia and differentiating it from other conditions.
-
-Conclusion:
-
-    The developed CNN model for pneumonia detection from chest X-ray images demonstrates high accuracy and reliability, offering a valuable tool for healthcare professionals. By automating the detection process, the system can facilitate faster diagnosis and treatment, potentially improving patient outcomes. This project showcases the potential of deep learning algorithms in medical image analysis and their application in real-world healthcare challenges.
-
